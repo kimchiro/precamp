@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./02-signup.css">
+</head>
+<body>
+    <div class="container">
+    <div class="item">
+        <h1>회원 가입을 위해<br>
+            정보를 입력해주세요
+        </h1>
+        <ul class="star-list">
+            <li>이메일<br>
+        <input class="signup" type="text"><br>
+        <hr>
+    </li>
+    <li>이름<br>
+        <input class="signup" type="text"><br>
+        <hr>
+    </li>
+    <li>비밀번호<br>
+        <input class="signup" type="password"><br>
+        <hr>
+    </li>
+    <li>비밀번호 확인<br>
+        <input class="signup" type="password"><br>
+        <hr>
+    </li>
+    </ul>
+        <!-- <select>
+        <option disabled="true" selected="true">지역을 선택하세요</option>
+        <option>서울</option>
+        <option>경기</option>
+        <option>인천</option>
+    </select> -->
+    <br><br>
+    <div class="gender">
+    <input type="radio" name="gender">여성
+    <input type="radio" name="gender">남성
+    </div>
+    <br><br>
+    <label for="checkbox"> <!-- for 어트리뷰트는 체크박스의 id와 일치해야 합니다. -->
+        <input type="checkbox" id="checkbox">이용약관 개인정보 수집 및 이용,마케팅 활용 선택에 모두 동의합니다.
+    <hr>
+    <br><br>
+    <button class="btn">가입하기</button>
+    </div>
+    </div>
+</body>
+</html>

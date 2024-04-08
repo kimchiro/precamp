@@ -1,0 +1,111 @@
+html, body {
+    box-sizing: border-box;
+    border: 1px solid #AACDFF;
+    box-shadow:1px 4px 1px rgba(0, 104, 255, 0.25);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div .container {
+    width: 1920p;
+    height: 1080px;
+    display: flex;
+}
+
+
+
+div .item{
+    width: 670px;
+    height: 960px;
+    top: 60px;
+    left: 625px;
+    border: 1px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div h1 {
+    border: none;
+    color: blue;
+    width: 466px;
+    height: 94px;
+    top: 132px;
+    left: 725px;
+}
+
+div hr {
+    border: 1px solid #E6E6E6;
+    width: 470px;
+    height: 1px;
+    top: 844px;
+    left: 725px;
+}
+
+.signup {
+    width: 466px;
+    height: 80px;
+    top: 286px;
+    left: 725px;
+    border: none;
+}
+
+.gender {
+    width: 140px;
+    height: 23.94px;
+    top: 719px;
+    left: 890px;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender .input {
+    width: 55px;
+    height: 23.94px;
+    top: 719px;
+    left: 975px;
+    border: 1px #D2D2D2;  
+    color: #EBEBEB;
+}
+
+.checkBox {
+    border: 1px #C4C4C4;
+    width: 454px;
+    height: 21.06px;
+    top: 792.94px;
+    left: 737px;
+    border-radius: 3px;
+}
+
+.btn {
+    width: 470px;
+    height: 75px;
+    top: 875px;
+    left: 725px;
+    border-radius: 10px;
+    border: 1px solid #0068FF;
+    color: blue;
+    background: none;
+}
+
+.star-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+    color: #797979;
+
+}
+
+.star-list li:before {
+    content: "*";
+    margin-right: 5px;
+}
